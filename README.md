@@ -1,2 +1,2 @@
 # gptahhproject
-gpt my goat
+gpt my goat lol
