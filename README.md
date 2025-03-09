@@ -1,3 +1,6 @@
-This is a concept meal planning app that is using API from spoonacular.com to get a daily meal plan based on calory input.
-
-Source code used in my Youtube tutorial found here: https://youtu.be/N5or5jBstg8
+# MealByte
+ An advanced meal planner and helper powered by an intelligent assistant.
+ 
+ 
+ 
+ # This project is licensed under the terms of the GNU General Public License 3.0.
