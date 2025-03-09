@@ -12,6 +12,7 @@ Install [Visual Studio Code](https://code.visualstudio.com/) from Microsoft
 [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) 
 
 ## Development Server
+In a VSCode terminal, type:
 ```bash
 pnp install
 ```
