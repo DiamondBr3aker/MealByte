@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import MealList from "./MealList";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI("AIzaSyDIByfmoslkCFZKTn1tp3s4HsjC4FPkheA"); // Replace with actual API key
+const apiKey = process.env.REACT_APP_GOOGLE_API_KEY; // Access the API key from environment variables
+const genAI = new GoogleGenerativeAI(apiKey);
 
 function Eapp() {
   const [mealData, setMealData] = useState(null);
