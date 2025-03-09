@@ -14,11 +14,11 @@ Install [Visual Studio Code](https://code.visualstudio.com/) from Microsoft
 ## Development Server
 In a VSCode terminal, type:
 ```bash
-pnp install
+npm install
 ```
 Then run:
 ```bash
-pnp start
+npm start
 ```
 If an error code about OpenSSL appears, type this before runtime
 ```bash
