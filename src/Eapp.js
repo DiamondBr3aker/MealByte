@@ -6,7 +6,7 @@ const genAI = new GoogleGenerativeAI("AIzaSyDIByfmoslkCFZKTn1tp3s4HsjC4FPkheA");
 
 function Eapp() {
   const [mealData, setMealData] = useState(null);
-  const [calories, setCalories] = useState(2000);
+  const [calories, setCalories] = useState();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null); // Track errors
 

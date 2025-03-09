@@ -8,7 +8,6 @@ export default function Meal({ meal }) {
         <li>Prep time: {meal.readyInMinutes} minutes</li>
         <li>Servings: {meal.servings}</li>
       </ul>
-      <a href={meal.sourceUrl}>View Recipe</a>
     </article>
   );
 }
